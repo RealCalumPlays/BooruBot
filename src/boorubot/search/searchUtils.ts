@@ -202,7 +202,7 @@ function compareTagAgainstBlacklist(tag: string, blacklist: string[]): boolean {
  * @returns If the extension is embeddable in an embed
  */
 function isEmbeddableFileType(ext: string): boolean {
-  return ['.jpg', '.jpeg', '.png', '.gif'].includes(ext)
+  return ['.jpg', '.jpeg', '.png', '.gif', '.mp4'].includes(ext)
 }
 
 function notEmpty(str: string): boolean {
